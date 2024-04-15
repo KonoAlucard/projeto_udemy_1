@@ -1,0 +1,110 @@
+.header {
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    align-items: center;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.header_cont1 {
+    margin: 50px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.header_cont1 h1 {
+    font-size: 56px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+
+}
+
+.header_cont1 p {
+    background-color: rgba(0, 0, 0, .7);
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 2px solid;
+}
+
+nav li {
+    list-style-type: none;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px;
+}
+
+nav ul {
+    margin: 20px 50px 0 0;
+    text-align: right;
+
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-right: 16px;
+}
+
+section {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 130px;
+    background-color:white;
+    margin-bottom: 32px;
+    padding: 16px;
+
+}
+
+main {
+    justify-content: center;
+    padding: 16px;
+    margin-top: 32px;
+
+}
+
+footer {
+
+    text-align: center;
+    padding: 30px; 
+    text-shadow: 2px 2px 2px black ;
+    letter-spacing: 2px;
+    background-color: gray;
+}
+
+h2 {
+    text-align: left;
+    background-color: #eee;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0px;
+
+
+}
+
+.saiba_mais {
+    text-decoration: none;
+    display: block;
+    background-color: #ccc; 
+    padding: 10px;
+    border-radius: 6px;
+    width: fit-content;
+    margin-left: auto;
+}
